@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+  - name: stg_domestic_data_raw
+    description: "Regalia domestic spending raw data"
+  - name: stg_domestic_data_cleaned
+    description: "Regalia domestic spending clean data"
+    columns:
+      - name: date
+        description: "Date of spending"
+      - name: description
+        description: "Transaction description"
+      - name: amount
+        description: "Amount spent"

@@ -1,0 +1,17 @@
+
+version: 2
+
+models:
+  - name: fct_domestic_spending
+    description: "Domestic spending data enriched with categories"
+    columns:
+      - name: date
+        description: "Date of spending"
+      - name: description
+        description: "Original transaction description"
+      - name: amount
+        description: "Amount spent"
+      - name: category
+        description: "Broad spending category"
+      - name: subcategory
+        description: "Specific spending subcategory"
